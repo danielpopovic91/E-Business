@@ -1,0 +1,36 @@
+/* Layout Styles - Connor Park - s3432303*/
+
+
+#wrapper {
+ background: white;
+ width: auto;
+ margin: auto;
+position: relative;
+border: 2px solid #000000; /* black border */
+}
+#header {
+ height:200px;
+ padding: .5em;
+ background-color: darkblue;
+ border-bottom: 1px solid black;
+ text-align: center;
+
+ }
+ #leftmenu {
+width: 200px;
+float:left;
+}
+#content {
+ background-color: white;
+ border-left: 3px white;
+ margin-left: 200px;
+ height: 400px;
+ padding: 1em;
+}
+ #footer {
+ 	clear:both;
+ 	height: 70px;
+ 	background-color: lightblue;
+ 	border-top: 3px solid black;
+ 	text-align: center;
+ }
