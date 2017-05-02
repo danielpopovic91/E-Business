@@ -3,7 +3,7 @@
 
 #wrapper {
  background: white;
- width: auto;
+ width: 1260px;
  margin: auto;
 position: relative;
 border: 2px solid #000000; /* black border */
@@ -16,15 +16,11 @@ border: 2px solid #000000; /* black border */
  text-align: center;
 
  }
- #leftmenu {
-width: 200px;
-float:left;
-}
 #content {
  background-color: white;
  border-left: 3px white;
- margin-left: 200px;
- height: 400px;
+ 
+ height: 1200px;
  padding: 1em;
 }
  #footer {
