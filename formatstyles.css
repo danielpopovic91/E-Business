@@ -74,6 +74,14 @@ li a {
 li a:hover {
     background-color: #111;
 }
+h2{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+
+}
+content{
+    background-image: "cinema.jpg"
+}
 </style>
 </head>
 <body>
