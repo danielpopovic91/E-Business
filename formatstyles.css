@@ -3,6 +3,10 @@
  <style type ="text/css">
 
 
+
+#banner{width: 100%;margin: auto;position: relative;}
+
+
 #wrapper {
  background: white;
  width: 1260px;
@@ -27,9 +31,10 @@ border: 2px solid #000000; /* black border */
 }
 h2{
     position:absolute;
-    top:100px;
+    top:400px;
     left: 0;
     width:100%;
+    
 }
 h2 span{
     color: white; 
