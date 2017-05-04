@@ -13,10 +13,9 @@ Melbourne Indie Films
 </script>
 
 	</head>
-	<body>
- 
-	
-<div id="wrapper">
+
+	<body text="white">
+	<div id="wrapper">
 	 <div id = "header">
  		<h1>Melbourne Indie Films</h1>
  			<ul>
@@ -25,8 +24,42 @@ Melbourne Indie Films
   <li><a href="about us.html">About Us</a></li>
   <li><a href="contact us.html">Contact Us</a></li>
   <li style="float:right"><a class="active" href="login.html">Login/Register</a></li>
-</ul>
-
+			</ul>
  </div>
+
+<!--sourcecode: https://www.w3schools.com/w3css/w3css_slideshow.asp -->
+ <div class="container"> 
+  <img class="mySlides" src="images/slide1.jpg" style="width:50%">
+  <img class="mySlides" src="images/slide2.jpg" style="width:50%">
+  <img class="mySlides" src="images/slide3.jpg" style="width:80%">
+
+  <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="righ-button" onclick="plusDivs(1)">&#10095;</button>
+  <p><i> Looking for interesting things to do for the weekend ? </i></p>
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+	
  	</body>
  </html>
