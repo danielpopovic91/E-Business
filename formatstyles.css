@@ -44,9 +44,12 @@ h2 span{
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
    text-align:center;
+   ;
 }
 h2 span.spacer{
     padding: 0 5px;
+    width:auto;
+   height:auto;
 }
  #footer {
     clear:both;
@@ -162,7 +165,7 @@ li a:hover {
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: auto;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
