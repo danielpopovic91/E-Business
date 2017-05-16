@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>The Godmother - Melbourne Indie Films</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+	<div id="banner">
+		<img src="images/banner.jpg" alt="banner">
+	</div>
+	<div id="wrapper">
+		<ul>
+			<li><a class="active" href="homepage.html">Home</a></li>
+			<li><a href="catalogue.html">Catalogue</a></li>
+			<li><a href="about us.html">About Us</a></li>
+			<li><a href="contact us.html">Contact Us</a></li>
+			<li style ="float:right"><a href="cart.html"><img src = "images/shoppingcart.png" alt = "shopping cart logo" style = "width:15px;height:15px; float:right"></a></li>
+			<li style="float:right"><a class="active" href="login.html">Login/Register</a></li>
+		</ul>
+	</div>
+	<div class="catalogue_title">
+		<h1>The Godmother</h1>
+	</div>
+	<div class="movie_info">
+		<img src="images/movies/godmother.jpg" />
+		<div class="ticket_info">
+				<form action="cart.php" method="post">
+				<select>
+					<option value="richmond">Richmond</option>
+					<option value="stkilda">St Kilda</option>
+					<option value="newport">Newport</option>
+				</select>
+				<select>
+					<option value="6:30pm">6:30pm</option>
+					<option value="8:30pm">8:30pm</option>
+					<option value="10:30pm">10:30pm</option>
+				</select>
+				<input type="submit" value="Add to Cart">
+				</form>
+		</div>
+	</div>
+	
+	<div id ="footer">
+		<ul>
+			<li><a href="http://www.facebook.com">Facebook</a></li>
+			<li><a href="http://www.instagram.com">Instagram</a></li>
+		</ul>
+	</div>
+</body>
+
+</html>

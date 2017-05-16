@@ -10,7 +10,7 @@ h1,h2,h3{
 	color: white;
 }
 
-=======
+
 /* Catalogue page gallery formatting*/
 #banner{width: 100%;margin: auto;position: relative;}
 .movie_gallery{float: center;margin: 0 auto;width: 1366px;list-style: none;}
@@ -19,6 +19,10 @@ h1,h2,h3{
 .movie_title p{font: bold 18px/18px Helvetica, Sans-Serif;text-align: center;vertical-align: middle;color: red;margin: 5px}
 .movie_links a{border: 1px solid white;text-decoration: underline;}
 .catalogue_title h1{font: bold 30px/30px Helvetica, Sans-Serif;color: white;}
+
+div.movie_info {justify-content: center; display: flex; align-items: center;}
+div.ticket_info {float: left;}
+
 
 #wrapper{background: white;width: 100%;margin: auto;position: relative;border: 2px solid #000000; /* black border */}
 #footer {
