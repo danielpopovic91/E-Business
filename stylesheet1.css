@@ -1,4 +1,3 @@
-<style type ="text/css">
 
 
 #banner{width: 100%;margin: auto;position: relative;}
@@ -113,8 +112,17 @@ h2 span.spacer{
     float:right;
     height: auto;
     color:white;
-    padding:100px;
+    padding:25px;
     text-align:center;
 
+}
+.venue-button{
+    float:right;
+    height:auto;
+    color:white;
+    padding:25px;
+    text-align:center;
+    margin:0;
 
 }
+
