@@ -20,6 +20,15 @@ h1,h2,h3{
 .movie_links a{border: 1px solid white;text-decoration: underline;}
 .catalogue_title h1{font: bold 30px/30px Helvetica, Sans-Serif;color: white;}
 
+#banner{width: 100%;margin: auto;position: relative;}
+.venue_gallery{float: center;margin: 0 auto;width: 1366px;list-style: none;}
+.venue_gallery li{float: center;width: 500px;margin-right: 50px;margin-bottom: 10px;margin-top: 10px;margin-left: 10px;border: 2px solid white;}
+.venue_gallery li img{width: 500px;height: 400px;float: center;border: 1px solid white;}
+.venue_title p{font: bold 18px/18px Helvetica, Sans-Serif;text-align: center;vertical-align: middle;color: red;margin: 5px}
+.venue_links a{border: 1px solid white;text-decoration: underline;}
+.venue_title h1{font: bold 30px/30px Helvetica, Sans-Serif;color: white;}
+
+
 #wrapper{background: white;width: 100%;margin: auto;position: relative;border: 2px solid #000000; /* black border */}
 #footer {
     clear:both;
@@ -35,7 +44,7 @@ table{border:2px solid black;}
     body { background-color: black; }
     body {font-size: 100%;}
     img {max-width: 100%;
-         height: 100%;
+         height: auto;
          margin: auto;
         }
 
