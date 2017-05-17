@@ -9,12 +9,32 @@
 		
 		<link rel = "stylesheet" type="text/css" href="login-style.css"/>
 		<link rel = "stylesheet" type="text/css" href="formatstyles.css"/>
-		<link rel = "stylesheet" type="text/css" href="layoutstyles.css"/>
 		
+		<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/cinema.jpg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
 		<script src="login-script.js"></script>
 
 	</head>
+
 	<body text="white">
+
 		<div class="temp" id="banner">
 			<img src="images/banner.jpg" alt="banner">
 		</div>
@@ -23,12 +43,14 @@
 				<ul>
 					<li><a class="active" href="homepage.html">Home</a></li>
 					<li><a href="catalogue.html">Catalogue</a></li>
-					<li><a href="about us.html">About Us</a></li>
+					<li><a href="catalogue.html">Movies</a></li>
+			<li><a href="venues.html">Venues</a></li>
 					<li><a href="contact us.html">Contact Us</a></li>
-					<li style="float:right"><a class="active" href="login.html">Login/Register</a></li>
-				</ul>
+					<li style ="float:right"><a href="cart.html"><img src = "images/shoppingcart.png" alt = "shopping cart logo" style = "width:15px;height:15px; float:right"></a></li>
+			<li style="float:right"><a class="active" href="login.html">Login/Register</a></li>
+		</ul>
 			</div>
-
+<div class="bg">
 
 			<div class="login-page">
 				<div class="form">
