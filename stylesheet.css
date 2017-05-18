@@ -29,8 +29,10 @@ h1,h2,h3{
 .venue_links a{border: 1px solid white;text-decoration: underline;}
 .venue_title h1{font: bold 30px/30px Helvetica, Sans-Serif;color: white;}
 =======
-div.movie_info {justify-content: center; display: flex; align-items: center;}
+.movie_info {justify-content: center; display: flex; align-items: center;}
+.movie_info p {color: white;}
 div.ticket_info {float: left;}
+.ticket_info p {color: white;}
 >>>>>>> origin/master
 
 
