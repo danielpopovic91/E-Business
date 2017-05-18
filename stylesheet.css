@@ -6,7 +6,7 @@ body{
 	margin: 0px;
 }
 
-h1,h2,h3{
+h1,h2,h3,li{
 	color: white;
 }
 
@@ -61,6 +61,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font:white;
 }
 
 li a:hover {
@@ -76,10 +77,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font:white;
 }
 
 li {
     float: left;
+    font:white;
 }
 
 li a {

@@ -38,7 +38,8 @@ table{border:2px solid black;}
 
 li {
     float: left
-    font: bold 45px/86px Helvetica, Sans-Serif; 
+    font: bold 45px/86px Helvetica, Sans-Serif,white;
+    color:white; 
 }
 
 li a {
