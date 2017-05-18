@@ -69,8 +69,8 @@ h2 span.spacer{
          body { background-color: black; }
          body {font-size: 100%;}
          img {
-            max-width: 1366px;
-            height: 150px;
+            max-width: auto;
+            height: auto;
             margin: auto;
             
          }
